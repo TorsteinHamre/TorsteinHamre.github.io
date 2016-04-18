@@ -1,0 +1,27 @@
+   body {
+            background-color:black;
+        }
+        
+h1 {
+            color:gold;font-family:edwardian script itc;font-size: 50px;
+        }
+        
+p {
+            color:darkgoldenrod; background-color:silver;
+        }
+        
+a {
+            color:yellow;
+        }
+        
+li {
+            color:firebrick;
+        }
+        
+hr {
+            color:blue;
+        }
+        
+a:hover {
+            color:cyan;font-size:20;
+        }
