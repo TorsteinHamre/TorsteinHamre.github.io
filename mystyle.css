@@ -18,6 +18,18 @@ hr {
     color:blue;
 }
 
-.youtube {
-    background-color:red;
+a:hover {
+    color:yellow;font-size:30px
+}
+
+h2 {
+    color:forestgreen
+}
+
+h3 {
+    color:yellow
+}
+
+ul {
+    color:firebrick
 }
