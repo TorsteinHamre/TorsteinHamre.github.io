@@ -7,7 +7,7 @@ h1 {
 }
 
 p {
-    color:firebrick; font-family:monospace; 
+    color:firebrick;font-family:monospace; 
 }
 
 a {
@@ -17,9 +17,9 @@ a {
 hr {
     color:blue;
 }
-
+    
 a:hover {
-    color:yellow;font-size:30px
+    color:yellow; font-size:30px
 }
 
 h2 {
@@ -31,5 +31,9 @@ h3 {
 }
 
 ul {
-    color:firebrick
+    color:firebrick; font-family:fantasy;
+}
+
+h4 {
+    color:darkorange
 }
