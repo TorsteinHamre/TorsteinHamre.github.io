@@ -3,11 +3,14 @@ body {
 }
 
 h1 {
-    color:gold; font-family:blackadder itc; font-size:50px
+    color:gold; 
+    font-family:blackadder itc; 
+    font-size:50px
 }
 
 p {
-    color:firebrick;font-family:monospace; 
+    color:firebrick;
+    font-family:monospace; 
 }
 
 a {
@@ -18,8 +21,9 @@ hr {
     color:blue;
 }
     
-a:hover {
-    color:yellow; font-size:30px
+:not(.knapp)>a:hover {
+    color:yellow;
+    font-size:30px
 }
 
 h2 {
@@ -31,9 +35,25 @@ h3 {
 }
 
 ul {
-    color:firebrick; font-family:fantasy;
+    color:firebrick;
+    font-family:monospace;
 }
 
 h4 {
     color:darkorange
+}
+
+.meny {
+    background-color: gray;
+    padding: 10px;
+    margin: left;
+    width: 205px;
+}
+
+.knapp {
+    width: 100px;
+    height: 50px;
+    background-color: silver;
+    display: inline-table;
+    margin: auto;
 }
