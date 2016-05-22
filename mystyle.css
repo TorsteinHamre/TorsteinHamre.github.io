@@ -57,3 +57,8 @@ h4 {
     display: inline-table;
     margin: auto;
 }
+
+ol {
+    color:firebrick;
+    font-family:monospace;
+}
