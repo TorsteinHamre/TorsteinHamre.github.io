@@ -1,64 +1,32 @@
 body {
-    background-color:black;
+    background-color:darkgreen  ;
 }
 
 h1 {
     color:gold; 
     font-family:blackadder itc; 
-    font-size:50px
+    font-size:50px;
+    text-align:left;
+    
 }
 
-p {
-    color:firebrick;
-    font-family:monospace; 
-}
-
-a {
-    color:aqua;
-}
 
 hr {
-    color:blue;
-}
-    
-:not(.knapp)>a:hover {
-    color:yellow;
-    font-size:30px
-}
-
-h2 {
-    color:forestgreen
-}
-
-h3 {
-    color:yellow
+    color:green;
 }
 
 ul {
-    color:firebrick;
-    font-family:monospace;
+    color:lime;
 }
 
-h4 {
-    color:darkorange
+a {
+    color:lime;
 }
 
-.meny {
-    background-color: gray;
-    padding: 10px;
-    margin: left;
-    width: 205px;
+.tilbake {
+    background-color:forestgreen;
 }
 
-.knapp {
-    width: 100px;
-    height: 50px;
-    background-color: silver;
-    display: inline-table;
-    margin: auto;
-}
-
-ol {
-    color:firebrick;
-    font-family:monospace;
+.neste {
+    background-color:forestgreen;
 }
