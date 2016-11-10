@@ -10,6 +10,10 @@ h1 {
     
 }
 
+h3 {
+    color:lawngreen
+}
+
 
 hr {
     color:green;
@@ -33,4 +37,12 @@ a {
 
 .hjem {
     background-color:forestgreen;
+}
+
+li {
+    color:lime;
+}
+
+p {
+    color:lime;
 }
