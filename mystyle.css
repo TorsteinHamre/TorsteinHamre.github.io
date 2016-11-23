@@ -46,3 +46,12 @@ li {
 p {
     color:lime;
 }
+
+.hjemmeside {
+    background-color:darkblue;
+}
+
+.skolearbeid {
+    background-color:black;
+    color:blue;
+}
