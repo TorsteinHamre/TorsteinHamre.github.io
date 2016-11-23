@@ -1,5 +1,6 @@
 body {
-    background-color:darkgreen  ;
+    background-color:black;
+
 }
 
 h1 {
@@ -47,11 +48,15 @@ p {
     color:lime;
 }
 
-.hjemmeside {
-    background-color:darkblue;
-}
-
 .skolearbeid {
     background-color:black;
     color:blue;
+}
+
+.naturfag {
+    background-color:darkgreen;
+}
+
+h5 {
+    color:gold;
 }
