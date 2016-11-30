@@ -3,60 +3,69 @@ body {
 
 }
 
+.jumbotron {
+
+  h1,
+  .h1 {
+    color:gold;
+  }
+}
+
 h1 {
+    font-family:blackadder itc;
+    color:gold;
+    
+}
+
+h2 {
     color:gold; 
     font-family:blackadder itc; 
-    font-size:50px;
+    font-size:25px;
     text-align:left;
     
 }
 
 h3 {
-    color:lawngreen
+    color:gold;
+    font-family:blackadder itc;
 }
 
 
-hr {
-    color:green;
-}
 
-ul {
-    color:lime;
-}
-
-a {
-    color:lime;
-}
-
-.tilbake {
-    background-color:forestgreen;
-}
-
-.neste {
-    background-color:forestgreen;
-}
-
-.hjem {
-    background-color:forestgreen;
-}
-
-li {
-    color:lime;
-}
-
-p {
-    color:lime;
-}
 
 .skolearbeid {
     background-color:black;
     color:blue;
 }
 
+.tilbake {
+    background-color:black;
+}
+
+.neste {
+    background-color:black;
+}
+
+.hjem {
+    background-color:black;
+}
+
 .naturfag {
     background-color:darkgreen;
 }
 
-h5 {
-    color:gold;
+.naturfag-tekst {
+
+}
+
+.naturfag-tekst a {
+    color:yellowgreen;
+}
+
+.naturfag-tekst p {
+    color:lawngreen;
+}
+
+.naturfag-tekst hr {
+    color:lime;
 }
