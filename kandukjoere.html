@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+        <script>
+            var myprog = function(){
+        var alder = prompt("Hvor gammel er du?");
+        var mdiv = document.getElementById("melding");
+        if (alder >= 18) {
+            mdiv.innerHTML = "Du er gammel nok til å kjøre bil";
+        } else if (alder >= 16) {
+            mdiv.innerHTML = "Du er gammel nok til å kjøre moped";
+        } else {
+            mdiv.innerHTML = "Du er verken gammel nok til å kjøre bil eller moped";
+        }
+            }
+    </script>
+
+    </head>
+    <body onload="myprog()">
+        <div id="melding"></div>
+        
+        <p>Trykk F5 får å prøve på nytt!</p>
+
+    
+
+    </body>
+</html>
