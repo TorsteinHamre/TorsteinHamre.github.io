@@ -4,23 +4,57 @@
      <meta charset="UTF-8">
          <script>
                var myprog = function() {
-            var mdiv = document.getElementById("melding");
-            var date = new Date();
-            var mnd = date.getMonth();
-            var dato = date.getDate();
-    
-            if(navn === "Torstein" && mnd === 7 && dato === 27) { // mnd = måned, dato = dagen i måneden
-            mdiv.innerHTML ="Gratulerer med fødselsdagen, Torstein!";
-            }
-    
+                   console.log("Inne i myprog");
+                var mdiv = document.getElementById("melding");
+                var date = new Date();
+                var mnd = date.getMonth();
+                var dato = date.getDate();
+                
+
+                if( mnd === 5 && dato === 5) { 
+                mdiv.innerHTML ="Gratulerer med fødselsdagen, Torstein!";
+                }
+                var mdiv = document.getElementById("Navn");
+                var bursdag = [
+                    {
+                        "fdato" : "05-06-2002",
+                        "navn" : "Torstein"
+                    },
+                    {
+                        "fdato" : "01-02-1973",
+                        "navn" : "Bjørn"
+                    },
+                    {
+                        "fdato" : "18-05-1974",
+                        "navn" : "Frøydis"
+                    },
+                    {
+                        "fdato" : "14-03-2004",
+                        "navn" : "Eivind"
+                    }
+                    ];
+                var blength = bursdag.length;
+                var i;
+                   
+                   for (i = 0; i < blength; i++) {
+                       console.log( bursdag[i].navn) 
+                   }
+                
+                
+                if(navn === Torstein && fdato === "05-05-2002"){
+                    mdiv1.innerHTML = "Gratulerer med dagen"
+                }
         }
         </script>
-    
+        <link href="mystyle.css" rel="stylesheet">
     </head>
-    <body>
+    <body onload="myprog()">
+        
         <h1>Hvem har bursdag?</h1>
         
         <div id="melding"></div>
+        
+        <div id="Navn"></div>
         
 
         
