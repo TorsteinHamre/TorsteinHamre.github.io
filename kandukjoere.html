@@ -4,26 +4,28 @@
      <meta charset="UTF-8">
         <script>
             var myprog = function(){
-        var alder = prompt("Hvor gammel er du?");
-        var mdiv = document.getElementById("melding");
-        if (alder >= 18) {
-            mdiv.innerHTML = "Du er gammel nok til å kjøre bil";
-        } else if (alder >= 16) {
-            mdiv.innerHTML = "Du er gammel nok til å kjøre moped";
-        } else {
-            mdiv.innerHTML = "Du er verken gammel nok til å kjøre bil eller moped";
-        }
-            }
+            var alderAsString = prompt("Hvor gammel er du?");
+            var alder = parseInt(alderAsString);
+            var mdiv = document.getElementById("melding");
+                if (alder >= 18) {
+                        mdiv.innerHTML = "Du er gammel nok til å kjøre bil!";
+                    } else if (alder >= 16) {
+                        mdiv.innerHTML = "Du er gammel nok til å kjøre moped!";
+                    } else {
+                        mdiv.innerHTML = "Du er verken gammel nok til å kjøre bil eller moped!";
+                    }
+                }
     </script>
     <link href="mystyle.css" rel="stylesheet">
     </head>
-    <body onload="myprog()">
-        <div id="melding"></div>
-        <a href="javascript.html">Tilbake</a>
-        
-        <p>Trykk F5 får å prøve på nytt!</p>
-
-    
-
+    <body>
+        <button><a href="index.html">Hjem</a></button>    
+        <button><a href="javascript.html">Tilbake</a></button>
+        <hr>
+            <button onclick="myprog();">Trykk for å sjekke!</button>
+        <hr>
+            <div>
+                <h3 id="melding"></h3>
+            </div>
     </body>
 </html>

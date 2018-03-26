@@ -1,5 +1,5 @@
 body {
-    background-color:red;
+    background-color: red;
 }
 
 p {
@@ -9,18 +9,43 @@ p {
 }
 
 h1 {
-    color:navy;
+    color: darkgoldenrod;
     font-family:Arial Rounded MT Bold;
     
 }
 
 h2 {
-    color:navy;
+    color: darkgoldenrod;
     font-family:Arial Rounded MT Bold;
     
 }
 
+h3 {
+	color: darkgoldenrod;
+	font-family: darkgoldenrod;
+}
+
 h5 {
-    color:navy;
+    color: darkgoldenrod;
     font-family:Palace Script MT
+}
+
+button {
+	border-color: aqua;
+	color: cadetblue;
+	background-color: black;
+}
+
+a {
+	color: cadetblue;
+}
+
+hr {
+	border-color: goldenrod	;
+
+}
+
+.jumbotron {
+		color:darkgoldenrod;
+		background-color: white;
 }
