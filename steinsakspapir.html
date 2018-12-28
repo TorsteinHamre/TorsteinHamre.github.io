@@ -3,7 +3,18 @@
 <head>
      <meta charset="UTF-8">
         <script>
-            
+            randomTall = function(){
+                var tall = Math.floor(Math.random()*3)
+                var mdiv = document.getElementByID("melding")
+                if (tall = 0){
+                        mdiv.innerHTML="Stein"
+                } else if (tall = 1){
+                        mdiv.innerHTML="Saks"
+                } else {
+                        mdiv.innerHTML="Papir"
+                }
+
+            }
         </script>
      <link href="mystyle.css" rel="stylesheet">  
 </head>
@@ -15,6 +26,8 @@
     	<hr>
 
         <h1>Stein Saks Papir</h1>
+
+        <h3 id="melding"></h3>
 
     
 

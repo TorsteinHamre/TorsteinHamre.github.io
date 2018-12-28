@@ -3,7 +3,7 @@ body {
 }
 
 p {
-    color:navy;
+    color:darkgoldenrod;
     font-family:Arial Rounded MT Bold;
     
 }
@@ -48,4 +48,19 @@ hr {
 .jumbotron {
 		color:darkgoldenrod;
 		background-color: white;
+}
+
+footer {
+	color: darkgoldenrod;
+}
+
+.newsroles {
+	font-size: 1pxl;
+	font-style: bold;
+}
+
+.SN {
+	background-color: blue;
+	border: solid tomato;
+	text-align: center;
 }
