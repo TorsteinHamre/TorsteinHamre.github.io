@@ -3,41 +3,42 @@ body {
 }
 
 p {
-    color:darkgoldenrod;
+    color:white;
     font-family:Arial Rounded MT Bold;
     
 }
 
 h1 {
-    color: darkgoldenrod;
+    color: white;
     font-family:Arial Rounded MT Bold;
     
 }
 
 h2 {
-    color: darkgoldenrod;
+    color: white;
     font-family:Arial Rounded MT Bold;
     
 }
 
 h3 {
-	color: darkgoldenrod;
+	color: white;
 	font-family: darkgoldenrod;
 }
 
 h5 {
-    color: darkgoldenrod;
+    color: white;
     font-family:Palace Script MT
 }
 
 button {
-	border-color: aqua;
-	color: cadetblue;
-	background-color: black;
+	border-color: black;
+	color: red;
+	background-color: darkgoldenrod;
+	
 }
 
 a {
-	color: cadetblue;
+	color: white;
 }
 
 hr {
@@ -54,13 +55,28 @@ footer {
 	color: darkgoldenrod;
 }
 
-.newsroles {
-	font-size: 1pxl;
-	font-style: bold;
+.newPage {
+	background-color: darkgoldenrod;
+	border-color:black;
+	color: red;
 }
 
-.SN {
-	background-color: blue;
-	border: solid tomato;
-	text-align: center;
+.box {
+	background-color: red;
+	color:gold;
+	border-color: black;
+}
+
+ul {
+	color: white;
+
+}
+
+li {
+	color: white;
+
+}
+
+del {
+	color:black;
 }
