@@ -3,9 +3,9 @@
 <head>
      <meta charset="UTF-8">
         <script>
-            var myprog = function(){
+           /*var myprog = function(){
             var alderAsString = prompt("Hvor gammel er du?");
-            var alder = parseInt(alderAsString);
+            var alder = parseInt(number);
             var mdiv = document.getElementById("melding");
                 if (alder >= 18) {
                         mdiv.innerHTML = "Du er gammel nok til å kjøre bil!";
@@ -14,8 +14,20 @@
                     } else {
                         mdiv.innerHTML = "Du er verken gammel nok til å kjøre bil eller moped!";
                     }
+                } */
+            function myFunction() {
+                document.getElementById("demo").innerHTML = numberResualt
+            }
+            var numberResualt = parseInt(number);
+            var mdiv = document.getElementById("demo");
+                if (number >= 18) {
+                    mdiv.innerHTML = "Du er gammel nok til å kjøre bil!";
+                } else if (alder >= 16) {
+                    mdiv.innerHTML = "Du er gammel nok til å kjøre moped!";
+                } else {
+                    mdiv.innerHTML = "Du er verken gammel nok til å kjøre bil eller moped";
                 }
-    </script>
+        </script>
     <link href="mystyle.css" rel="stylesheet">
     </head>
     <body>
@@ -26,6 +38,14 @@
         <hr>
             <div>
                 <h3 id="melding"></h3>
+            </div>
+        <hr>
+            <div>
+                <p>Skriv inn alderen og trykk på knappen for å finne ut om du er gammel nok for å kjøre.</p>
+                <p>Alder: <input type="number" id="multiplyWith" value="10"></p>
+                <button onclick="myFunction()">Knapp</button>
+
+                <p>Resultat: <span id="demo"></span></p>
             </div>
     </body>
 </html>
