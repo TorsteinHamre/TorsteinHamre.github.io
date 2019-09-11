@@ -116,7 +116,10 @@ ol {
 	color: rgb(69, 211, 49);
 }
 
-div {
+.container {
 	resize: both;
 	overflow: auto;
+	padding: 15px;
+	width: 200px;
+	height: 300px;
 }
