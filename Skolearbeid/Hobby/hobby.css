@@ -1,0 +1,152 @@
+/* HTML tager */
+body {
+  background-color: orange;
+  color: white
+}
+
+ol {
+  font-size: 20px;
+}
+
+ol li  {
+  float: none;
+}
+
+/* Klasser */
+.head {
+  text-align: left;
+  color: white;
+  height: 150px;
+  font-size: 35px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.active {
+  background-color: #ff0000
+}
+
+.tekst {
+  width: 40%;
+  overflow: auto;
+  font-size: 20px;
+}
+
+.tabell {
+  background-color: orange;
+  color: black;
+}
+
+/* nav bar på toppen av siden*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ff10c7;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #ff10c7;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ff10c7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  color: white;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* Utforming og plasseringer på siden*/
+
+/* Få to kolonner med tekst */
+nav {
+  float: left;
+  padding: 20px;
+  background-color: orange;
+}
+
+aside {
+  align-content: right;
+}
+
+section {
+  
+}
+
+article {
+  
+}
+
+
+/* Tabell */
+
+table #2 {
+  background-color: rgb(252, 255, 255);
+}
+
+table #3 {
+  background-color: rgb(252, 132, 0);
+}
+
+tr {
+  background-color: white
+}
+
+table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                /* border-collapse: collapse gjør at linjene mellom rutene er enkellinjer og ikke dobbel */
+                padding: 5px;
+                /* Denne gir litt mellomrom mellom kanten og starten på tabellen */
+            }
+            table, td {
+                text-align: center;
+                /* Denne sentrerer all tekst i td-tagger */
+            }
