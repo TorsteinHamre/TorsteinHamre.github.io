@@ -26,7 +26,10 @@
 	
 	<section>
 		<nav>
-				<img src="megMedPokal.png">
+			<img class="slide" src="pokalAddidas.png">
+			<img class="slide" src="pokalBauge.png">
+			<img class="slide" src="pokalKrets.png">
+			<img class="slide" src="megMedPokal.png">
 		</nav>
 		<article>
 			<h2>Hvorfor spiller jeg fotball?</h2>
@@ -45,7 +48,22 @@
 
 		</article>
 	</section>
-			
+<script>
+	var myIndex = 0;
+	karusell();
+
+	function karusell() {
+		var i;
+		var x = document.getElementsByClassName("slide");
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";
+		}
+		myIndex++;
+		if (myIndex > x.length) {myIndex = 1}
+		x[myIndex-1].style.display = "block";
+		setTimeout(karusell, 5000)
+	}
+</script>	
 	
 </body>
 </html>
