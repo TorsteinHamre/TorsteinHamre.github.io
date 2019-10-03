@@ -1,6 +1,6 @@
 /* HTML tager */
 body {
-  background-color: green;
+  background-color: darkgreen;
   color: white
 }
 
@@ -33,7 +33,7 @@ ol li  {
 }
 
 .tabell {
-  background-color: green;
+  background-color: darkgreen;
   color: black;
 }
 
@@ -109,7 +109,7 @@ li.dropdown {
 nav {
   float: left;
   padding: 20px;
-  background-color: green;
+  background-color: darkgreen;
 }
 
 aside {

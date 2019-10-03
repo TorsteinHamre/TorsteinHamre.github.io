@@ -1,0 +1,60 @@
+/* Tager */
+body {
+    background-color: lightgray;
+}
+
+header {
+    background-color: darkslategrey;
+    color: white;
+    text-align: center;
+    height: 100px;
+    font-size: 30px;
+}
+
+article {
+    background-color: slategray;
+    color: white;
+    padding: 12px;
+    /*float: left;*/
+    width: relative;
+    text-align: center;
+}
+
+aside {
+    float: left;
+    padding: 20px;
+    background-color: gray;     
+    width: relative;
+}
+
+footer {
+    background-color: rgb(173, 173, 173);
+    padding: 20px;
+    width: 100%
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+}
+
+ul {
+    background-color: black;
+}
+
+ul li {
+    display: inline-block;
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+}
+
+li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+}
