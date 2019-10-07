@@ -20,11 +20,11 @@ header {
 /* Create two columns/boxes that floats next to each other */
 nav {
 	float: left;
-	width: 20%;
+	width: relative;
 	background: #990000;
 	padding: 20px;
 	color: white;
-	height: 300px;
+	
 }
   
 /* Style the list inside the menu */
@@ -34,11 +34,11 @@ nav ul {
 }
   
 article {
-	float: left;
+	/*float: left;*/
 	padding: 20px;
-	width: 80%;
+	width: relative;
 	background-color: #cf0000;
-	height: 300px;
+	/*height: 300px;*/
 	color: white;
 }
   
