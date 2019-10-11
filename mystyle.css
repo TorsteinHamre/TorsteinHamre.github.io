@@ -7,6 +7,15 @@ body {
 	background-color: white;
 }
 
+pre {
+	background-color: peachpuff;
+	color: black;
+}
+
+.kode {
+	width: 400px;
+}
+
   
 /* Style the header */
 header {
@@ -31,6 +40,13 @@ nav {
 nav ul {
 	list-style-type: none;
 	padding: 0;
+}
+
+article ul {
+	list-style-type: none;
+}
+article ul li {
+	background-color: #cf0000;
 }
   
 article {
