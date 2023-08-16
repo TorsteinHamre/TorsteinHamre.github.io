@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="kalkulatorCSS.css">
+
+</head>
+<body>
+
+<h1>Kalkulator md JS</h1>
+
+<p>Dette er en enkel kalkulator</p>
+
+<hr>
+
+
+<div>
+<p id="display">0</p>
+</div>
+
+<div>
+<button onClick="add_string(7)">7</button>
+<button onClick="add_string(8)">8</button>
+<button onClick="add_string(9)">9</button>
+<button onClick="add_string('*')">*</button>
+</div>
+<div>
+<button onClick="add_string(4)">4</button>
+<button onClick="add_string(5)">5</button>
+<button onClick="add_string(6)">6</button>
+<button onClick="add_string('/')">/</button>
+</div>
+<div>
+<button onClick="add_string(1)">1</button>
+<button onClick="add_string(2)">2</button>
+<button onClick="add_string(3)">3</button>
+<button onClick="add_string('-')">-</button>
+</div>
+<div>
+<button onClick="add_string(0)">0</button>
+<button onClick="document.getElementById('display').innerHTML = '0'">C</button>
+<button onClick="solve()">=</button>
+<button onClick="add_string('+')">/</button>
+</div>
+
+<hr>
+<input type="number" id="uniqueID1"/>
+<input type="number" id="uniqueID2"/>
+<button onclick="disp()">Regn ut</button>
+<p = id="output"></p>
+
+<script>
+function add_string(n) {
+	let d = document.getElementById("display").innerHTML;
+	let string;
+	if (d == 0) {
+		document.getElementById("display").innerHTML = n;
+	}
+	else {
+		document.getElementById("display").innerHTML += n;
+	}
+}
+
+function solve() {
+	let e = document.getElementById("display").innerHTML;
+	let s = eval(e)
+	document.getElementById("display").innerHTML = s;
+}
+function disp() {
+let tall1 = document.getElementById("uniqueID1").value;
+let tall2 = document.getElementById("uniqueID2").value;
+let svar = eval(tall1 + "+" +  tall2);
+document.getElementById("output").innerHTML = svar;
+}
+</script>
+</body>
+</html>

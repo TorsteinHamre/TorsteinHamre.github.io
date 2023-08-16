@@ -1,0 +1,21 @@
+h1 {
+	text-align: center;
+}
+
+body {
+	text-align: center;
+}
+
+#display {
+	background-color: white;
+}
+
+button {
+	margin: 10px;
+	padding: 10px;
+}
+
+div {
+	margin: 15px;
+	
+}
